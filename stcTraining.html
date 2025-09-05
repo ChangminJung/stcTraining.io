@@ -1346,7 +1346,7 @@
 	    		        
 	    		        if(sum > 0){
 	    		        	// 맞음
-	    		        	$('.keyCheck2').eq(cardNum).html('<img class="scoring" src="./img/채점O.png" style="height: 150px; position:absolute;  left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)-5) +'px;">');
+	    		        	$('.keyCheck2').eq(cardNum).html('<img class="scoring" src="./채점O.png" style="height: 150px; position:absolute;  left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)-5) +'px;">');
 	    		        	$('.keyAns2').eq(cardNum).html('');
 	    		        	
 	    		        	if($('.cardBool').eq(cardNum).html()==''){
@@ -1358,8 +1358,8 @@
 	    		        	
 	    		        }else{
 	    		        	// 틀림
-	    		        	$('.keyCheck2').eq(cardNum).html('<span class="checkTip">정답을 입력하면 넘어갑니다.</span><img class="scoring" src="./img/채점X.png" style="height: 95px; position:absolute;  left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)-15) +'px;">');
-	        				$('.keyAns2').eq(cardNum).html('<img class="scoring" src="./img/채점화살표.png" style="height: 70px; position:absolute;  left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)+20) +'px;"> <div class="scoring" style="font-size:30px; line-height: 70px; position:absolute; height:70px; left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)+100) +'px;">'+ keyWord +'</div>');
+	    		        	$('.keyCheck2').eq(cardNum).html('<span class="checkTip">정답을 입력하면 넘어갑니다.</span><img class="scoring" src="./채점X.png" style="height: 95px; position:absolute;  left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)-15) +'px;">');
+	        				$('.keyAns2').eq(cardNum).html('<img class="scoring" src="./채점화살표.png" style="height: 70px; position:absolute;  left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)+20) +'px;"> <div class="scoring" style="font-size:30px; line-height: 70px; position:absolute; height:70px; left:'+ (($(".stcMean").eq(cardNum).find(".key").offset().left)-($(".stcMean").eq(cardNum).offset().left)+100) +'px;">'+ keyWord +'</div>');
 	    		        	
 	        				if($('.cardBool').eq(cardNum).html()==''){
 	    		        		$('.cardBool').eq(cardNum).html(1);	
@@ -1430,7 +1430,7 @@
 	    		        
 	    		        if(sum > 0){
 	    		        	// 맞음
-	    		        	$('.keyCheck1').eq(cardNum).html('<img class="scoring" src="./img/채점O.png" style="height: 150px; position:absolute;  top:-50px; left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)-25) +'px;">');    		        	
+	    		        	$('.keyCheck1').eq(cardNum).html('<img class="scoring" src="./채점O.png" style="height: 150px; position:absolute;  top:-50px; left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)-25) +'px;">');    		        	
 	    		        	$('.keyAns1').eq(cardNum).html('');
 	    		        	
 	    		        	if($('.cardBool').eq(cardNum).html()==''){
@@ -1441,8 +1441,8 @@
 	    		        	
 	    		        }else{
 	    		        	// 틀림
-	    		        	$('.keyCheck1').eq(cardNum).html('<img class="scoring" src="./img/채점X.png" style="height: 95px; position:absolute; top:-50px;  left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)-35) +'px;">');
-	        				$('.keyAns1').eq(cardNum).html('<span class="checkTip">정답을 입력하면 넘어갑니다.</span><img class="scoring" src="./img/채점화살표.png" style="height: 70px; position:absolute;  left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)) +'px;"> <div class="scoring" style="top:20px; background-color:white; font-size:30px; line-height: 30px; position:absolute; height:30px; z-index:100; left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)+80) +'px;">'+ keyWord +'</div>');
+	    		        	$('.keyCheck1').eq(cardNum).html('<img class="scoring" src="./채점X.png" style="height: 95px; position:absolute; top:-50px;  left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)-35) +'px;">');
+	        				$('.keyAns1').eq(cardNum).html('<span class="checkTip">정답을 입력하면 넘어갑니다.</span><img class="scoring" src="./채점화살표.png" style="height: 70px; position:absolute;  left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)) +'px;"> <div class="scoring" style="top:20px; background-color:white; font-size:30px; line-height: 30px; position:absolute; height:30px; z-index:100; left:'+ (($(".stc").eq(cardNum).find(".key").offset().left)-($(".stc").eq(cardNum).offset().left)+80) +'px;">'+ keyWord +'</div>');
 	        				
 	        				$('.cardBool').eq(cardNum).html(1);
 	        				
@@ -1549,6 +1549,7 @@
 	</script>
 </body>
 	
+
 
 
 
